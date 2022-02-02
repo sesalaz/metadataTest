@@ -1,0 +1,23 @@
+{
+  "name": "cypresstests-metadata",
+  "version": "1.0.0",
+  "description": "take home test for cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sesalaz/metadataTest.git"
+  },
+  "author": "Sebastian Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sesalaz/metadataTest/issues"
+  },
+  "homepage": "https://github.com/sesalaz/metadataTest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}
