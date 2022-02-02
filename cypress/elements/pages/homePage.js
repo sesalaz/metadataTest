@@ -4,6 +4,10 @@ class HomePage {
   visit() {
     cy.visit("/");
   }
+  getPhones()  { 
+    cy.get('a').contains('Phones').click()
+  }
+
   logIn(id, pass, testType) {
     cy.get("[id=login2]").click();
     cy.wait(2000);
@@ -40,7 +44,6 @@ class HomePage {
         cy.on("window:alert", (str) => {
           expect(str).to.equal("Sign up successful.");
         });
-
         break;
       case 2:
         cy.on("window:alert", (str) => {
