@@ -9,6 +9,7 @@ describe("Sign In", () => {
   beforeEach(() => {
     home.visit();
   });
+  //Simple tests for signing and edge case contemplated in test number 1 .  In this particular case, Im using random ids and passwords generated above to give flexibility on IDs
   it("should be able to sign in to the application", () => {
     home.signIn(id, password, 1);
   });

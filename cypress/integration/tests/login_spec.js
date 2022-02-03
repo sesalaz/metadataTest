@@ -6,6 +6,7 @@ describe("Log In and Out of the app", () => {
     cy.fixture("testData.json").as("testData");
     home.visit();
   });
+   //Simple tests for login , as depicted on test number 1 , Im using here parametrization using cypresses own fixture system for static test data. 
   it("should be able to log in the application with the test data user", () => {
     cy.get("@testData").then((testData) => {
       home.logIn(`${testData.username}`, `${testData.password}`, 1);
