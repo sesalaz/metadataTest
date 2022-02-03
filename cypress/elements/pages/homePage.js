@@ -25,7 +25,7 @@ class HomePage {
   getPhones()  { 
     cy.get('a').contains('Phones').click()
     //Intercept the request to make sure it is done correctly
-    cy.intercept('GET', '/bycat*').as('bycat')
+    cy.intercept('POST', '/bycat*').as('bycat')
     cy.wait('@bycat', {
       timeout: 6000,
     })
