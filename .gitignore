@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+cypress/screenshots/tests/cart_spec.js/Add or Delete products and make purchases -- should be able to add and delete phones from the main site into the cart and make a purchase (failed).png
+cypress/videos/tests/cart_spec.js.mp4
+cypress/videos/tests/login_spec.js.mp4
+cypress/videos/tests/products_spec.js.mp4
+cypress/videos/tests/signIn_spec.js.mp4
