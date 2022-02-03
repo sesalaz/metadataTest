@@ -1,5 +1,11 @@
 {
   "username": "sebastian.salazar",
   "password": "p@assword!",
-  "wrongUsername": "thisuseriswrong"
+  "wrongUsername": "thisuseriswrong",
+  "customerName": "Sebastian",
+  "customerCountry": "Costa Rica",
+  "customerCity": "San Jose", 
+  "customerCreditCard": "4444444444444444", 
+  "month":"2",
+  "year":"2022"
 }
